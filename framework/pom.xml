@@ -96,7 +96,6 @@
             <groupId>io.geekidea.springbootplus</groupId>
             <artifactId>config</artifactId>
         </dependency>
-
     </dependencies>
 
 </project>

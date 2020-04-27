@@ -78,6 +78,8 @@
         <snakeyaml.version>1.26</snakeyaml.version>
         <swagger2.version>2.9.2</swagger2.version>
         <knife4j.version>2.0.2</knife4j.version>
+        <xstream.version>1.4.10</xstream.version>
+        <dom4j.version>1.6.1</dom4j.version>
 
         <maven-compiler-plugin.version>3.8.1</maven-compiler-plugin.version>
         <maven-resources-plugin.version>3.1.0</maven-resources-plugin.version>
@@ -331,6 +333,17 @@
                 <artifactId>scheduled</artifactId>
                 <version>${project.version}</version>
             </dependency>
+            <!--xml start-->
+            <dependency>
+                <groupId>com.thoughtworks.xstream</groupId>
+                <artifactId>xstream</artifactId>
+                <version>${xstream.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>dom4j</groupId>
+                <artifactId>dom4j</artifactId>
+                <version>${dom4j.version}</version>
+            </dependency>
             <!-- 项目模块end -->
 
         </dependencies>
@@ -421,6 +434,14 @@
         <dependency>
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-text</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.thoughtworks.xstream</groupId>
+            <artifactId>xstream</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>dom4j</groupId>
+            <artifactId>dom4j</artifactId>
         </dependency>
     </dependencies>
 

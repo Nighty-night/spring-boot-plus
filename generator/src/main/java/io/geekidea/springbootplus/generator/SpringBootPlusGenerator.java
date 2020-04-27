@@ -47,12 +47,12 @@ public class SpringBootPlusGenerator {
         generatorProperties
                 .setMavenModuleName("example")
                 .setParentPackage("com.example")
-                .setModuleName("foobar")
-                .setAuthor("geekidea")
+                .setModuleName("syslog")
+                .setAuthor("wangkang")
                 .setFileOverride(true);
 
         // 设置表信息
-        generatorProperties.addTable("foo_bar","id");
+        generatorProperties.addTable("sys_log","log_id");
         // 设置表前缀
         // generatorProperties.setTablePrefix(Arrays.asList("tb_"));
 
